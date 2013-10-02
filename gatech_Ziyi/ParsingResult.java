@@ -1,6 +1,14 @@
 package gatech_Ziyi;
 
-
+/**
+ * The ParsingResult class stores the parsing data retrieved from Sears.java.
+ *
+ * It takes four properties of one item as title, price, vendor and index shown
+ * in a specific page.
+ *
+ * @author Ziyi Jiang
+ * @version 1.0 09/15/2013
+ */
 public class ParsingResult {
 	private String title;
 	private String price;
