@@ -15,7 +15,14 @@ public class ParsingResult {
 	private String vendor;
 	private int index;
 
-	
+	/**
+	 * Constructor used to input four properties together
+	 *
+	 * @param title title of item 
+	 * @param price price of item
+	 * @param vendor vendor of item
+	 * @param index index of item shown in a specific page
+	 */
 	public ParsingResult(String title, String price,String vendor, int index){
 		this.title = title;
 		this.price = price;
@@ -40,7 +47,11 @@ public class ParsingResult {
 	public void setVentors(String vendor) {
 		this.vendor = vendor;
 	}
-	
+	/**
+	 * Customized toString() method to organize the four properties 
+	 *
+	 * @return the nice-looking customized String 
+	 */
 	public String toString(){
 		return "Item " + index + ":\ntitle: " + title + "\nprice: "
 				+ price + "\nvendor: " + vendor + "\n" + 
